@@ -9,6 +9,7 @@ body{
     background-image: url(image.jpg);
     background-size: cover;
     height: 100vmax;
+    background-repeat: no-repeat;
 }
 
 #contenedor{
@@ -24,6 +25,7 @@ h2{
     text-align: center;
     font-weight: normal;
     font-style: italic;
+    background-color: rgba(23, 24, 26, 0.445);
 }
 
 form{
@@ -33,6 +35,7 @@ form{
     color: white;
     font-size: 2vw;
     font-weight: bold;
+    
 
 }
 
@@ -55,6 +58,18 @@ form{
     padding: 2vw;
     background-color: rgb(2, 148, 136);
     color: white;
-    border-radius: 100%;
+    border-radius: 10%;
     border:2px solid black;
+}
+
+#boton:hover{
+    background-color: black;
+
+    border: 2px;
+}
+
+#boton:active{
+    background-color: rgb(40, 128, 5);
+
+    border: 2px;
 }

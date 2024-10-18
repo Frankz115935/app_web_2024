@@ -23,7 +23,9 @@ function operation()
         resultado.innerHTML=`<h2> ${n1} ${tipoope} ${n2} = ${ope} </h2>`;
     } 
     else {
-        alert("Ingrese solo numeros por favor")
+        resultado = document.getElementById("resultado");
+        resultado.innerHTML=`<h2> Ingrese solo numeros por favor... </h2>`;
+        alert("Ingrese solo numeros por favor...")
     }
     
 
